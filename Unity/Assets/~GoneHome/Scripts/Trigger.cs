@@ -6,7 +6,7 @@ using UnityEngine.Events;
 
 namespace GoneHome
 {
-    public class Goal : MonoBehaviour
+    public class Trigger : MonoBehaviour
     {
         public UnityEvent onTriggered;
         
