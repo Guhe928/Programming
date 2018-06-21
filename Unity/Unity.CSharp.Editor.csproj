@@ -112,6 +112,12 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>Library\UnityAssemblies\SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
+    <Reference Include="TextMeshPro-5.5-Editor">
+      <HintPath>Assets\GuHe_Assessment1\TextMesh Pro\Plugins\Editor DLL\TextMeshPro-5.5-Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="TextMeshPro-5.5-Runtime">
+      <HintPath>Assets\GuHe_Assessment1\TextMesh Pro\Plugins\Editor DLL\TextMeshPro-5.5-Runtime.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.CSharp.csproj">
@@ -135,6 +141,27 @@
     <Compile Include="Assets\Tiled2Unity\Scripts\Editor\TiledAssetPostProcessor.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\GuHe_Assessment1\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
+    <None Include="Assets\GuHe_Assessment1\TextMesh Pro\Examples &amp; Extras\Fonts\Bangers - OFL.txt" />
+    <None Include="Assets\GuHe_Assessment1\TextMesh Pro\Examples &amp; Extras\Fonts\LiberationSans - OFL.txt" />
+    <None Include="Assets\GuHe_Assessment1\TextMesh Pro\Examples &amp; Extras\Fonts\NotoSans - License.txt" />
+    <None Include="Assets\GuHe_Assessment1\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald Bold - OFL.txt" />
+    <None Include="Assets\GuHe_Assessment1\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\GuHe_Assessment1\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\GuHe_Assessment1\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\GuHe_Assessment1\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\GuHe_Assessment1\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\GuHe_Assessment1\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\GuHe_Assessment1\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\GuHe_Assessment1\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\GuHe_Assessment1\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\GuHe_Assessment1\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
+    <None Include="Assets\GuHe_Assessment1\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\GuHe_Assessment1\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
+    <None Include="Assets\GuHe_Assessment1\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
+    <None Include="Assets\GuHe_Assessment1\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\GuHe_Assessment1\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\GuHe_Assessment1\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\Tiled2Unity\Imported\Level_01.tiled2unity.xml" />
     <None Include="Assets\Tiled2Unity\Imported\Level_02.tiled2unity.xml" />
     <None Include="Assets\Tiled2Unity\Imported\_ReadMe.txt" />
